@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=PT+Serif&family=Playfair+Display&family=Poppins&display=swap');
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    width: clamp(16rem, 92vw, 50rem);
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.page-title{
+    display: flex;
+}
+
+.page-title p{
+    font-family:  'Montserrat', sans-serif;;
+    font-size: 14px;
+    margin:  0 0.5em;
+}
+
+svg{
+    min-width:20px;
+    width: auto;
+    margin-top: 0.2rem;
+}
+
+.main-img img{
+    width: 100%;
+    height: auto;
+    padding: 2em 0;
+}
+
+.ing h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+}
+
+.ing h6{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+    margin: 1em 0;
+}
+
+.ing p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox p{
+    margin-left: 0.5rem;
+   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.checkbox em{
+    font-weight:500 ;
+}
+
+.ins{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.ins h3{
+    
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        font-weight: 700;
+}
+
+.sqr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem .5rem;
+    background-color: #F2994A;
+    aspect-ratio: 1/1;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.src{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    color:#BDBDBD;
+    text-align: center;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    
+    text-align: center;
+    margin-top: 5rem;
+
+}
+
+.card{
+    display: flex;
+    margin: 0.75rem 0;
+
+}
+
+.card h6, .card p{
+    margin:0.5rem 1rem;
+}
+
+.card span{
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.card .inner{
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.inner{
+    margin: 0 .25em;
+}
+
+.inner p, .inner h6{
+    margin: 0;
+    padding:0;
+    font-size: 12px;
+}
+
+.inner h6{
+    color: #BDBDBD;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 8px;
+}
+
+.inner p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.times{
+    margin-bottom: 2rem;
+}
+
+/*large screens*/
+
+@media screen and (min-width:790px) {
+
+.times{
+    min-width: 20%;
+    padding: 1rem;
+    display: block;
+   
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    max-height: 190px;
+}
+.row{
+    display: block;
+}
+ 
+.row2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+}

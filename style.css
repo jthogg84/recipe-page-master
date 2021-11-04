@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:white;
+    background-color:#181719;
+    margin: 1.75em 1.75em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h3{
+    font-family: 'Crimson Pro', serif;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 17px;
+    border: solid white 2px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+nav img{
+   cursor: pointer;
+   width: 36px;
+   height: auto;
+}
+
+.hero{
+    margin-top: 38px;
+}
+
+.hero h2{
+    font-family: 'Lora', serif;
+font-size:36px;
+font-weight: 600;
+line-height: 46px;
+}
+
+.hero p{
+    font-size: 16px;
+    margin:2em 0;
+    width:14.4em;
+    line-height: 17px;
+   
+}
+
+.cta{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 1.5em 0;
+}
+
+cta h5{
+    font-family: monospace;
+}
+
+.img-hero img{
+    position: relative;
+    width: 100%;
+    margin: 1em 0;
+}
+
+.card{
+   background-color: #181719;
+   position:relative;
+   padding: .75em;
+   display: flex;
+   flex-direction: column;
+   width: 85%;
+   height: auto;
+   box-shadow: 0em 0.3em 0.7em black;
+   top:-4em;
+   left:2.3em;
+}
+
+.card-header{
+  display: flex;
+  align-items: center;
+}
+
+.card-header img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+.head-text{
+    margin-left: 1em;
+    letter-spacing: .07em;
+}
+
+.head-text h5{
+    font-size: 10px;
+}
+.head-text h6{
+
+font-size: 10px;    
+    margin-top: .5em;
+    font-weight: 300;
+    color: #646262;
+    
+}
+.profile-text h6{
+    margin-top: 0.5em;
+    font-size: 14px;
+    width: 200px;
+    height: 45px;
+    font-family: 'Lora', serif;
+    letter-spacing: 0.1em;
+}
+
+.break{
+    text-align: center;
+    font-size: 12px;
+}
+
+.nav{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #181719;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    list-style: none;
+    transform: translateY(-100%);
+    transition: transform 600ms ease-in-out;
+    border-bottom: solid 2px white;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+.nav li{
+    font-family: inherit;
+    font-weight: bold;
+    margin: 2em 0;
+    border-bottom: solid transparent 2px;
+    letter-spacing: 0.1em;
+}
+
+.nav li:hover{
+    border-bottom: solid white 2px;
+}
+
+.nav li:active{
+    border-bottom: solid white 2px;
+}
+.open{
+    transform: translateY(0%);
+}
+
+.btn:active{
+    background-color: beige;
+}
+
+.mnu-header{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0.75em;
+    left: 1.5em;
+    right: 1.5em;
+}
+
+.mnu-logo{
+    font-size: 14px;
+    line-height: 20px;
+}
+
